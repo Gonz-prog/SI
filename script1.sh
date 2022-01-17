@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo
+echo "ls -l i date"
+echo "************"
+echo
+
 clear
 sleep 2
 ls -l

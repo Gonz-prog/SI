@@ -2,7 +2,7 @@
 
 echo
 echo "Operand let"
-echo "************"
+echo "***********"
 echo
 
 echo "(5+7)/4"

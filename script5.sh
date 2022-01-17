@@ -1,10 +1,14 @@
 #!/bin/bash
 
+echo
 echo "Que vols fer?"
+echo
 read -p "1) Sumar"
 	"2) Restar"
 	"3) Multiplicar"
-	"4) Dividir" opcio
+	"4) Dividir"
+	"5) Eixir" opcio
+	
 case $opcio in
 1)
 	read -p "Introdueix dos valors per a sumar-los " a b
@@ -31,6 +35,7 @@ case $opcio in
 	let resm=$a*$b
 	echo
 	echo "$a*$b=$resm"
+	echo
 	exit 1
 ;;
 4)
@@ -38,6 +43,20 @@ case $opcio in
 	echo
 	if [ $a -eq $b ]
 	then
+		echo "$a/$b=1"
+		echo
+	elif [ $a < $b ]
+	then
+		let resd2=$b/$a
+		echo "$b/$a=$resd2"
+		echo
+	else
+		let resm3=$a/$b
+		echo "$a/$b=$resm3"
+		echo
+	fi
 	
 ;;
 esac
+
+exit 0

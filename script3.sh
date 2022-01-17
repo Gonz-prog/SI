@@ -1,5 +1,10 @@
 #!/bin/bash
+
 echo
+echo "Operand let"
+echo "************"
+echo
+
 echo "(5+7)/4"
 let res=(5+7)/4
 echo

@@ -4,7 +4,7 @@ echo
 echo "Creant l'arxiu amb el nom de $1"
 echo
 sleep 2
-mkdir $1
+touch $1
 
 read -p "Digam ara un nom nou per a renombrar l'arxiu " nom
 echo

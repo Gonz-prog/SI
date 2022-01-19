@@ -13,3 +13,5 @@ date
 echo
 echo "Fí del script"
 echo
+
+exit 0

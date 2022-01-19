@@ -2,8 +2,8 @@
 
 echo
 
-l1=$( wc -l $1 | cut -d" " -f1 )
-l2=$( wc -l $2 | cut -d" " -f1 )
+l1=$( wc -l "$1" | cut -d" " -f1 )
+l2=$( wc -l "$2" | cut -d" " -f1 )
 
 if [ $l1 -gt $l2 ]
 then
